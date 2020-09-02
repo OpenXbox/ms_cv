@@ -11,12 +11,8 @@ A correlation vector implementation in python, based on Microsoft's implementati
 import ms_cv
 
 cll_vec = ms_cv.CorrelationVector()
-
-# Initial cll vector
-print(cll_vec)
-
-# Next iteration
-print(cll_vec.increment())
+print('Initial cll vector: {}'.format(cll_vec.get_value()))
+print('Next iteration: {}'.format(cll_vec.increment()))
 ```
 
 ## Installation
