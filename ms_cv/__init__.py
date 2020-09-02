@@ -3,7 +3,7 @@ ms_cv - Microsoft Correlation Vector, used for telemetry purposes by Microsoft W
 Source: https://github.com/Microsoft/Telemetry-Client-for-Android/blob/master/AndroidCll/src/main/java/com/microsoft/cll/android/CorrelationVector.java
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'OpenXbox <noreply@openxbox.org>'
 __all__ = []
 

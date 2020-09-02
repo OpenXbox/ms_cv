@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="ms_cv",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/OpenXbox/ms_cv",
     license='MIT',
 
