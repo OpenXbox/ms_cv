@@ -4,6 +4,8 @@ import re
 
 from setuptools import setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name="ms_cv",
@@ -15,6 +17,8 @@ setup(
     author_email="noreply@openxbox.org",
 
     description="A correlation vector implementation in python",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 
     packages=['ms_cv'],
     install_requires=[],
